@@ -56,12 +56,8 @@ export default function Services() {
             Our Services
           </div>
           <h2 className="text-primary font-playfair mt-6 text-4xl leading-tight font-bold tracking-tight md:text-5xl">
-            Comprehensive Bookkeeping & Accounting
+            What We Do
           </h2>
-          <p className="mx-auto mt-4 max-w-3xl text-xl text-balance text-gray-600">
-            We help businesses stay financially organized, compliant and stress
-            free, from QuickBooks setup to tax preparation.
-          </p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
@@ -78,9 +74,9 @@ export default function Services() {
               <h3 className="text-primary mb-4 text-xl font-semibold text-balance">
                 {service.title}
               </h3>
-              <p className="leading-relaxed text-gray-600">
+              {/*  <p className="leading-relaxed text-gray-600">
                 {service.description}
-              </p>
+              </p> */}
             </div>
           ))}
         </div>
